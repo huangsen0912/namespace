@@ -3,7 +3,7 @@ use \a\b\c\A;
 use \d\e\f\A as B;
 require_once("a.php");
 require_once("b.php");
-
+require_once("c.php");
 
 //$a=new \a\b\c\A();
 //$a->action();
@@ -16,5 +16,8 @@ $a->action();
 
 $b = new B();
 $b->action();
+
+$c = new \A();
+$c->action();
 
 ?>
