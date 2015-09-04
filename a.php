@@ -1,5 +1,5 @@
 <?php
-
+namespace a\b\c;
 class A{
 	public function action(){
 
